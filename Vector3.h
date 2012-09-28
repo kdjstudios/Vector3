@@ -10,6 +10,7 @@
 #include <ostream>
 #include <sstream>
 #include <cmath>
+#include <cfloat>
 //#include "const.h"
 namespace AO
 {
@@ -246,10 +247,10 @@ namespace AO
 		}
 		//Returns a normalized Vector3 of the Vector3 object
 		inline Vector3 normalize(Vector3 const &vector){
-			return vector * (1.f /(magnitude(vector)));
+			return vector * (1.f /(magnitude(vector) + FLT_MIN));
 		}
 		inline void toNormalized(Vector3 &vector){
-			vector *= (1.f /(magnitude(vector)));
+			vector *= (1.f /(magnitude(vector) + FLT_MIN));
 		}
 		inline void toPolar(Vector3 &vector,float const&x, float const&y, float const&z)
 		{
