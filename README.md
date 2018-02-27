@@ -1,6 +1,6 @@
-<h1 align="center">Vector2 C++</h1>
+<h1 align="center">Vector3 C++</h1>
 
-<p align="center">This is a simple implementation of a Vector2 object in C++. Features are listed below</p>
+<p align="center">This is a simple implementation of a Vector3 object in C++. Features are listed below</p>
 
 <p align="center">
     <a href="https://travis-ci.org/TheKyleJohnson90/Vector3">
