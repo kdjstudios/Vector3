@@ -3,8 +3,8 @@
 <p align="center">This is a simple implementation of a Vector3 object in C++. Features are listed below</p>
 
 <p align="center">
-    <a href="https://travis-ci.org/TheKyleJohnson90/Vector3">
-        <img src="https://travis-ci.org/TheKyleJohnson90/Vector3.svg?branch=master" alt="build status">
+    <a href="https://travis-ci.org/kdjstudios/Vector3">
+        <img src="https://travis-ci.org/kdjstudios/Vector3.svg?branch=master" alt="build status">
     </a>
 </p>
 
